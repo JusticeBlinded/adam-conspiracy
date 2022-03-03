@@ -50,19 +50,20 @@
 .top-left {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-evenly;
     padding-left: 20px;
     padding-right: 20px;    
 }
 
 .tl-header {
     color: #F9FAF8;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 48px;
 }
 
 .tl-body {
     color: #E5E7EB;
+    font-size: 25px;
 }
 
 .tl-button {
@@ -82,6 +83,7 @@
 .top-right img {
     max-width: 100%;
     height: 250px;   
+    padding-right: 30px;
 }
 
 .top-right {
@@ -110,4 +112,24 @@
     justify-content: center;
     flex-shrink: 0;
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qmain {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.qsig {
+    font-weight: bold;
+    font-size: 18px;
+    align-self: flex-end;
 }
