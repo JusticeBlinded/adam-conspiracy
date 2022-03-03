@@ -103,7 +103,8 @@
 
 .photo-header {
     text-align:center;
-    
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .suspect {
@@ -119,6 +120,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 25px;
 }
 
 .qmain {
@@ -132,4 +134,43 @@
     font-weight: bold;
     font-size: 18px;
     align-self: flex-end;
+    padding-right: 15px;
 }
+
+.call-to-action {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+    
+    
+}
+
+.blue-bar {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px 20px 60px;
+    border-radius: 8px; 
+}
+
+.bbleft {
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+
+.bbright {
+    align-self:center;
+    justify-self: flex-end;   
+}
+
+.bbright button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 20px;
+    border-color: #F9FAF8;
+    border-radius: 8px; 
+}
+
